@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import TicTacToe from './component/Tictac/TicTacToe'
 
 function App() {
 
   return (
-   <div>
-Hamza
-   </div>
+    <div>
+      <TicTacToe/>
+    </div>
   )
 }
 
